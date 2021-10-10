@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+body * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#container > div {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 200px;
+}
+
+#container > div > div {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: inherit;
+  height: 50px;
+  border: 1px solid black;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
